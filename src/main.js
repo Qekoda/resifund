@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import axios from './plugins/axios'
 
-import './assets/stylesheets/application.sass'
+import './assets/stylesheets/_application.sass'
 
 Vue.config.productionTip = false
 window.axios = axios
