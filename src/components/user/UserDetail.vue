@@ -1,14 +1,14 @@
 <template>
-  <div class="user-detail">
-    <div class="user-detail__avatar">
+  <div class="details">
+    <div class="details__avatar">
       <img :src="avatarSrc" alt="Avatar" class="avatar" />
     </div>
-    <div class="user-detail__info">
-      <p class="user-detail__label ">{{ user.name }}</p>
-      <p class="user-detail__label">email: <span class="user-detail__text">{{ user.email }}</span></p>
-      <p class="user-detail__label">phone: <span class="user-detail__text">{{ user.phone }}</span></p>
-      <p class="user-detail__label">О себе: </p>
-      <p class="user-detail__text">{{ user.about || defaultAbout}}</p>
+    <div class="details__info">
+      <p class="details__label ">{{ user.name }}</p>
+      <p class="details__label">email: <span class="details__text">{{ user.email }}</span></p>
+      <p class="details__label">phone: <span class="details__text">{{ user.phone }}</span></p>
+      <p class="details__label">О себе: </p>
+      <p class="details__text">{{ user.about || defaultAbout}}</p>
     </div>
   </div>
 </template>
@@ -35,7 +35,8 @@
 </script>
 
 <style lang="sass" scoped>
-.user-detail 
+
+.details
   display: flex
   flex-direction: row
   gap: 6%

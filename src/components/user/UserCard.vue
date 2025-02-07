@@ -1,14 +1,14 @@
 <template>
-  <div class="user-card">
-    <div class="user-card__avatar">
+  <div class="card">
+    <div class="card__avatar">
       <img :src="avatarSrc" alt="Avatar" class="avatar" />
     </div>
     <div 
-      class="user-card__info"
-      :class="{ 'user-card__info--active': active }"
+      class="card__info"
+      :class="{ 'card__info--active': active }"
     >
-      <p class="user-card__username">{{ user.username }}</p>
-      <p class="user-card__email">{{ user.email }}</p>
+      <p class="card__username">{{ user.username }}</p>
+      <p class="card__email">{{ user.email }}</p>
     </div>
   </div>
 </template>
@@ -39,7 +39,7 @@
 
 <style lang="sass" scoped>
 
-.user-card 
+.card
   height: 70px
   display: flex
   flex-direction: row

@@ -1,11 +1,12 @@
 <template>
-  <header class="header header--indent-bottom">
+  <header class="header">
     <h1 class="header__logo">Жилфонд</h1>
     <div class="header__user">Пользователь</div>
   </header>
 </template>
 
 <style lang="sass" scoped>
+
 .header
   display: flex
   justify-content: space-between
@@ -15,6 +16,4 @@
     font-weight: bold
     color: var(--color-logo)
 
-  &--indent-bottom
-    margin-bottom: 25px
 </style>

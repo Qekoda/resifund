@@ -20,13 +20,16 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+
 .container
   height: 100vh
   padding: 50px
   display: flex
   flex-direction: column
+  gap: 25px
 
-.main
-  flex: 1
-  min-height: 300px
+  .main
+    flex: 1
+    min-height: 300px
+
 </style>

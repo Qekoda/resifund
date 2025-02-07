@@ -26,8 +26,7 @@
   border: 2px solid transparent
   border-top-color: #000000
   border-radius: 50%
-  -webkit-animation: spin7 1.5s ease infinite
-          animation: spin7 1.5s ease infinite
+  animation: spin 1.5s ease infinite
 
   &:before
     content: ""
@@ -39,7 +38,7 @@
     border: 2px solid transparent
     border-radius: 50%
     border-top-color: #000000
-    animation: spin7 3s linear infinite
+    animation: spin 3s linear infinite
 
   &:after
     content: ""
@@ -51,9 +50,9 @@
     border: 2px solid transparent
     border-radius: 50%
     border-top-color: #000000
-    animation: spin7 1.5s ease infinite
+    animation: spin 1.5s ease infinite
 
-@keyframes spin7
+@keyframes spin
   from
     transform: rotate(0deg)
     transform: rotate(0deg)
