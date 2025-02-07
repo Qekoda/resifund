@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkresifund"]=self["webpackChunkresifund"]||[]).push([[925],{7925:function(e,s,t){t.r(s),t.d(s,{default:function(){return l}});var r=function(){var e=this;e._self._c;return e._m(0)},n=[function(){var e=this,s=e._self._c;return s("header",{staticClass:"header header--indent-bottom"},[s("h1",{staticClass:"header__logo"},[e._v("Жилфонд")]),s("div",{staticClass:"header__user"},[e._v("Пользователь")])])}],a=t(1656),u={},i=(0,a.A)(u,r,n,!1,null,"10600699",null),l=i.exports}}]);
+//# sourceMappingURL=925.251c8f5f.js.map
