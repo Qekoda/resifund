@@ -1,19 +1,23 @@
-# resifund
+# Тестовое задание для компании "Жилфонд"
 
-## Project setup
+Необходимо реализовать страницу поиска сотрудников, с предпросмотром профиля.
+Приложение состоит из двух страниц, в sidebar осуществляется поиск и отображение результатов.
+На главной отображается карточка пользователя с личными данными.
+
+## Макет:
+[Ссылка на макет](https://www.figma.com/file/31ULlO77yDmnFAf6ZmtFaI/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8-%22%D0%96%D0%B8%D0%BB%D1%84%D0%BE%D0%BD%D0%B4%22?type=design&node-id=0-1&mode=design)
+
+## Зависимости
+node v20.16.0
+
+## Установка
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Запуск
+
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
